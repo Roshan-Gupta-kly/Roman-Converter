@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    background-color: #1B1B32;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.logo {
+    position: absolute;
+    top: 0;
+    height: 30px;
+    margin: 4rem;
+}
+
+.roman-number {
+    color: #fff;
+    margin-bottom: 3rem;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 2.4rem;
+}
+
+.number-container {
+    width: 348px;
+    height: 258px;
+    border: 2px solid #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1.8rem;
+    background-color: #3B3B4F;
+}
+
+.input-label {
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+#number {
+    width: 255px;
+    height: 60px;
+    border: 1px solid #fff;
+    font-size: 1.5rem;
+    color: #fff;
+    padding-left: 7px;
+    background-color: #060615;
+}
+
+.convertBtn {
+    padding: 1rem 3rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+    background-color: #FEBA3E;
+    border: 0;
+    outline: 0;
+}
+
+.displayInvalid {
+    width: 348px;
+    height: 60px;
+    font-size: 1.4rem;
+    color: #760404;
+    border: 2px solid red;
+    background-color: #FFADAD;
+    margin-top: 2rem;
+    display: none;
+    position: relative;
+}
+
+.displayInvalid p {
+    width: 90%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.result {
+    color: #fff;
+    border: 2px solid #fff;
+    background-color: #3B3B4F;
+}
+
+.value {
+    color: #fff;
+    text-align: center;
+}
